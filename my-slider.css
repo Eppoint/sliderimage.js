@@ -284,16 +284,16 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width: auto;
+    width: 700px;
     border-radius: 0;
 }
 
 #my-slider-ism-badge {
-    width: auto;
+    width: 700px;
 }
 
 #my-slider:before {
-    content: ''; display: block; padding-top: 75%;
+    content: ''; display: block; padding-top: 50%;
 }
 
 #my-slider .ism-frame {
@@ -342,31 +342,15 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-radios {
-    display: block;
-    height: 32px;
+    display: none;
+    height: 20px;
     text-align: center;
 }
 
 #my-slider .ism-radios label {
-    width: 60px; height: 32px;
-    border-radius: 3px;
+    width: 20px; height: 20px;
+    border-radius: 10px;
     color: #000; background-color: rgba(255, 255, 255, 0.5);
-}
-
-#my-slider .ism-radios li.ism-radio-0 label {
-    background-image: url(../image/slides/_u/1507528216732_574095.jpeg);
-}
-
-#my-slider .ism-radios li.ism-radio-1 label {
-    background-image: url(../image/slides/_u/1507528232883_740233.jpeg);
-}
-
-#my-slider .ism-radios li.ism-radio-2 label {
-    background-image: url(../image/slides/_u/1507528207564_585191.jpeg);
-}
-
-#my-slider .ism-radios li.ism-radio-3 label {
-    background-image: url(../image/slides/_u/1507528386738_145959.jpeg);
 }
 
 #my-slider .ism-radios li.active label {
@@ -571,7 +555,7 @@ p.ism-badge a.ism-link:hover {
     font-size: 1.25em;
     font-family: sans-serif;
     position: absolute; top: 0%;
-    left: 35%;
+    left: 34%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
