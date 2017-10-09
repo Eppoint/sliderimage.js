@@ -284,7 +284,7 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width: 700;
+    width: 700px;
     border-radius: 0;
 }
 
@@ -293,7 +293,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider:before {
-    content: ''; display: block; padding-top: 75%;
+    content: ''; display: block; padding-top: 50%;
 }
 
 #my-slider .ism-frame {
@@ -571,7 +571,7 @@ p.ism-badge a.ism-link:hover {
     font-size: 1.25em;
     font-family: sans-serif;
     position: absolute; top: 0%;
-    left: 35%;
+    left: 34%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
