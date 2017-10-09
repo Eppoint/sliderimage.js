@@ -284,12 +284,12 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width: 700px;
+    width: auto;
     border-radius: 0;
 }
 
 #my-slider-ism-badge {
-    width: 700px;
+    width: auto;
 }
 
 #my-slider:before {
