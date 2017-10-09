@@ -24,22 +24,6 @@
   50% { left: 120px; }
 }
 
-.video-container {
-position:relative;
-padding-button:56.25%;
-padding-top:30px;
-height:0;
-overflow:hidden;
-}
-
-.video-container iframe,.video-container object,.video-container embed{
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-}
-
 .ism-slider .ism-slides {
   list-style: none;
   position: absolute;
@@ -300,16 +284,16 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width: auto;
+    width: 700px;
     border-radius: 0;
 }
 
 #my-slider-ism-badge {
-    width: autopx;
+    width: 700px;
 }
 
 #my-slider:before {
-    content: ''; display: block; padding-top: 35%;
+    content: ''; display: block; padding-top: 75%;
 }
 
 #my-slider .ism-frame {
@@ -321,7 +305,7 @@ p.ism-badge a.ism-link:hover {
     width: 60px; height: 100%; background-size: 32px 32px; top: 0; margin-top: 0;
     width: 50px; height: 100%; background-size: 16px 16px; top: 0; margin-top: -0;
     color: #fff; background-color: rgba(0, 0, 0, 0.3);
-    display: block; visibility: visible;
+    visibility: hidden;
 }
 
 #my-slider .ism-button-prev {
@@ -351,6 +335,10 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-pause-button:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+#my-slider:hover .ism-button {
+    visibility: visible;
 }
 
 #my-slider .ism-radios {
@@ -492,11 +480,11 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-0 .ism-caption-1 {
     font-size: 1.25em;
     font-family: sans-serif;
-    position: absolute; top: 70%;
+    position: absolute; top: 0%;
     left: 34%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: rgba(0, 0, 0, 0.40);
 }
 
 #my-slider .ism-slide-0 .ism-caption-2 {
@@ -522,11 +510,11 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-1 .ism-caption-1 {
     font-size: 1.25em;
     font-family: sans-serif;
-    position: absolute; top: 70%;
+    position: absolute; top: 0%;
     left: 34%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: rgba(0, 0, 0, 0.40);
 }
 
 #my-slider .ism-slide-1 .ism-caption-2 {
@@ -552,11 +540,11 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-2 .ism-caption-1 {
     font-size: 1.25em;
     font-family: sans-serif;
-    position: absolute; top: 70%;
+    position: absolute; top: 0%;
     left: 34%;
-    border-radius: 4px;
+    border-radius: 0;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: rgba(0, 0, 0, 0.40);
 }
 
 #my-slider .ism-slide-2 .ism-caption-2 {
@@ -582,8 +570,8 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-3 .ism-caption-1 {
     font-size: 1.25em;
     font-family: sans-serif;
-    position: absolute; top: 70%;
-    left: 34%;
+    position: absolute; top: 0%;
+    left: 35%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
